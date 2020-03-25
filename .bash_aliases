@@ -1,7 +1,7 @@
 # Basic aliases
 alias c='clear'
-alias bashrc='open ~/.bashrc'
-alias bash_aliases='open ~/.bash_aliases'
+alias bashrc='open $HOME/.bashrc'
+alias bash_aliases='open $HOME/.bash_aliases'
 
 cd () 
 {

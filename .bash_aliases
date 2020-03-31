@@ -26,6 +26,8 @@ alias spyder='setsid nohup conda run spyder > /dev/null 2> /dev/null'
 alias firefox='setsid nohup firefox > /dev/null 2> /dev/null'
 alias libre='setsid nohup libreoffice > /dev/null 2> /dev/null'
 alias texstudio='setsid nohup texstudio > /dev/null 2> /dev/null'
+alias steam='setsid nohup steam > /dev/null 2> /dev/null'
+alias openshot='setsid nohup openshot-qt> /dev/null 2> /dev/null'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 #Open file with editor aliases

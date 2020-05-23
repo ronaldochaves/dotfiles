@@ -134,3 +134,6 @@ unset __conda_setup
 . $HOME/.asdf/asdf.sh
 
 . $HOME/.asdf/completions/asdf.bash
+
+# Enable tkinter module on python scripts (Tcl/Tk shittens)
+export PATH="$PATH:/opt/ActiveTcl-8.6/bin"

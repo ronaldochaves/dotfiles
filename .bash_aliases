@@ -29,6 +29,7 @@ alias texstudio='setsid nohup texstudio > /dev/null 2> /dev/null'
 alias steam='setsid nohup steam > /dev/null 2> /dev/null'
 alias arduino='setsid nohup arduino > /dev/null 2> /dev/null'
 alias openshot='setsid nohup openshot-qt> /dev/null 2> /dev/null'
+alias okular='setsid nohup okular> /dev/null 2> /dev/null'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Open file with editor aliases

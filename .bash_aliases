@@ -1,7 +1,7 @@
 # Basic aliases
 alias c='clear'
-alias bashrc='open $HOME/.bashrc'
-alias bash_aliases='open $HOME/.bash_aliases'
+alias bashrc='subl $HOME/.bashrc'
+alias bash_aliases='subl $HOME/.bash_aliases'
 
 cd () 
 {
@@ -31,6 +31,7 @@ alias arduino='setsid nohup arduino > /dev/null 2> /dev/null'
 alias openshot='setsid nohup openshot-qt> /dev/null 2> /dev/null'
 alias okular='setsid nohup okular> /dev/null 2> /dev/null'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias thunder='setsid nohup $HOME/thunderbird/thunderbird > /dev/null 2> /dev/null'
 
 # Open file with editor aliases
 open ()

@@ -32,6 +32,8 @@ alias openshot='setsid nohup openshot-qt> /dev/null 2> /dev/null'
 alias okular='setsid nohup okular> /dev/null 2> /dev/null'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias thunder='setsid nohup $HOME/thunderbird/thunderbird > /dev/null 2> /dev/null'
+alias arduino='setsid nohup /opt/arduino/arduino-1.8.13/arduino > /dev/null 2> /dev/null'
+alias shutdown='sudo shutdown now'
 
 # Open file with editor aliases
 open ()
